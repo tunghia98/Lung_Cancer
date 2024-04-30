@@ -23,3 +23,8 @@ python evaluate.py
 ```
 python -m uvicorn app:app --reload
 ```
+
+# Run Web
+```
+start index.html
+```

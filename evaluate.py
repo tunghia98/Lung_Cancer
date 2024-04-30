@@ -43,7 +43,7 @@ recall = recall_score(all_labels, all_predictions, average='weighted')
 accuracy = accuracy_score(all_labels, all_predictions)
 
 # Print metrics
-print(f'F1 Score (Weighted): {f1:.4f}')
-print(f'Precision (Weighted): {precision:.4f}')
-print(f'Recall (Weighted): {recall:.4f}')
-print(f'Accuracy: {accuracy:.4f}')
+print(f'F1 Score (Weighted): {f1:.4f}') # Điểm F1 trọng số, là một phép đo tổng hợp của độ chính xác và độ phủ của một mô hình.
+print(f'Precision (Weighted): {precision:.4f}') # Tỉ lệ giữa số lượng các dự đoán đúng với tổng số các dự đoán dương tính.
+print(f'Recall (Weighted): {recall:.4f}') #Tỉ lệ giữa số lượng các dự đoán đúng với tổng số các trường hợp thực sự là dương tính.
+print(f'Accuracy: {accuracy:.4f}') # Tỉ lệ giữa số lượng các dự đoán đúng với tổng số lượng dự đoán.
