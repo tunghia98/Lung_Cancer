@@ -1,33 +1,3 @@
-
-# Download Dataset
-Please download the dataset from the following link: the dataset from this [Lung Cancer Dataset](https://www.kaggle.com/datasets/antonixx/the-iqothnccd-lung-cancer-dataset/data), and put it into `dataset` folder by this structure
-```
-dataset
-├───Bengin cases
-├───Malignant cases
-├───Normal cases
-└───split_info.json
-```
-
-# Model Training
-```
-python train.py
-```
-
-# Model Evaluation
-```
-python evaluate.py
-```
-
-# FastAPI
-```
-python -m uvicorn app:app --reload
-```
-
-# Run Web
-```
-start index.html
-```
 # Lung Cancer
 Một ứng dụng chẩn đoán hình ảnh CT phổi bằng
 trí tuệ nhân tạo. Ứng dụng sẽ sử dụng một mô hình deep learning để dự đoán loại bệnh
