@@ -1,0 +1,49 @@
+body {
+    background-image: url('background-image.jpg'); /* Đường dẫn đến ảnh nền */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    cursor: pointer; /* Thêm đổi hình con trỏ khi di chuột qua nút */
+}
+
+.result, .error, .directories, .metrics {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+}

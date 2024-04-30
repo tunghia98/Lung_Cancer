@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lung CT Image Diagnosis</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Lung CT Image Diagnosis</h1>
+        <!-- Form to upload an image for diagnosis -->
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label for="imageFile">Select a lung CT image:</label><br>
+            <input type="file" id="imageFile" name="file" accept=".jpg, .jpeg, .png" required><br>
+            <button type="button" onclick="diagnoseImage()">Diagnose</button>
+        </form>
+        
+        <!-- Diagnosis result -->
+        <div id="diagnosisResult" class="result"></div>
+        
+        <!-- Display uploaded image -->
+        <div id="uploadedImageContainer" style="display: none;">
+            <img id="uploadedImage" src="#" alt="Uploaded Image">
+        </div>
+    </div>
+</body>
+</html>
