@@ -3,19 +3,19 @@ Một ứng dụng chẩn đoán hình ảnh CT phổi bằng
 trí tuệ nhân tạo. Ứng dụng sẽ sử dụng một mô hình deep learning để dự đoán loại bệnh
 từ hình ảnh CT phổi, giúp giảm thời gian và công sức của các chuyên gia y tế trong quá
 trình chẩn đoán
-## Hướng dẫn sử dụng
+## Getting Started
 * **Chọn ảnh CT cần chẩn đoán**
 * **Nhấn nút chẩn đoán**
 * **Xem thông tin chẩn đoán**
 
-## Yêu cầu
+## Prerequisites
 * **torch**:
 * **timm**:
 * **fastapi**:
 * **uvicorn[standard]**:
 * **scikit-learn**:
 * **python-multipart**:
-## Cài đặt
+## Installing
 ### Tải bản zip hoặc tạo bản sao để bắt đầu làm việc với dự án
 ```
 git clone https://github.com/tunghia98/Lung_Cancer.git
@@ -60,9 +60,5 @@ python -m uvicorn app:app --reload
 ```
 start index.html
 ```
-## Chú ý
-
-## Tác Giả
-* **Tư Nghĩa**: (https://tunghia98.github.io/)
-* **Quốc Anh**: ()
-## Giấy phép
+## License
+This project is licensed under the GPL License - see the LICENSE.md file for details
